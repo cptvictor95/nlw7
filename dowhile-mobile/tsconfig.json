@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+  },
+  "include": [
+    "src/components",
+    "src/@types/svg.d.ts",
+    "src/@types/png.d.ts",
+    "src/@types/env.d.ts"
+  ],
+  "typeRoots": ["./src/@types"]
+}
